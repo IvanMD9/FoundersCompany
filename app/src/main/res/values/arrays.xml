@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="techno_sector">
+        <item>Google</item>
+        <item>Apple</item>
+        <item>Yandex</item>
+        <item>Microsoft</item>
+        <item>Amazon</item>
+        <item>Meta</item>
+        <item>Netflix</item>
+        <item>YouTube</item>
+        <item>JetBrains</item>
+    </string-array>
+
+    <string-array name="techno_country">
+        <item>USA</item>
+        <item>USA</item>
+        <item>Russia</item>
+        <item>USA</item>
+        <item>USA</item>
+        <item>USA</item>
+        <item>USA</item>
+        <item>USA</item>
+        <item>USA</item>
+        <item>Russia</item>
+    </string-array>
+
+    <array name="imageTechCompany">
+        <item>@drawable/google</item>
+        <item>@drawable/apple</item>
+        <item>@drawable/yandex</item>
+        <item>@drawable/microsoft</item>
+        <item>@drawable/amazon</item>
+        <item>@drawable/meta</item>
+        <item>@drawable/netflix</item>
+        <item>@drawable/youtube</item>
+        <item>@drawable/brains</item>
+    </array>
+
+    <array name="imageTechFound">
+        <item>@drawable/found_google</item>
+        <item>@drawable/found_apple</item>
+        <item>@drawable/found_yandex</item>
+        <item>@drawable/found_microsoft</item>
+        <item>@drawable/found_amazon</item>
+        <item>@drawable/found_meta</item>
+        <item>@drawable/found_netflix</item>
+        <item>@drawable/found_youtube</item>
+        <item>@drawable/found_brains</item>
+    </array>
+
+    <string-array name="car_sector">
+        <item>Tesla</item>
+        <item>Ford</item>
+        <item>Mercedes</item>
+        <item>BMW</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+        <item>Honda Motors</item>
+        <item>General Motors</item>
+        <item>Hyundai Motors</item>
+        <item>Nissan Motors</item>
+    </string-array>
+
+    <array name="imageCarCompany">
+        <item>@drawable/tesla</item>
+        <item>@drawable/ford</item>
+        <item>@drawable/mercedes</item>
+        <item>@drawable/bmw</item>
+        <item>@drawable/toyota</item>
+        <item>@drawable/wagen</item>
+        <item>@drawable/honda</item>
+        <item>@drawable/gm</item>
+        <item>@drawable/hyundai</item>
+        <item>@drawable/nissan</item>
+    </array>
+
+    <array name="imageCarFound">
+        <item>@drawable/found_tesla</item>
+        <item>@drawable/found_ford</item>
+        <item>@drawable/found_merc</item>
+        <item>@drawable/found_bmw</item>
+        <item>@drawable/found_toyota</item>
+        <item>@drawable/found_wagen</item>
+        <item>@drawable/found_honda</item>
+        <item>@drawable/found_gm</item>
+        <item>@drawable/found_hyundai</item>
+        <item>@drawable/found_nissan</item>
+    </array>
+
+    <string-array name="car_country">
+        <item>USA</item>
+        <item>USA</item>
+        <item>Germany</item>
+        <item>Germany</item>
+        <item>Japan</item>
+        <item>Germany</item>
+        <item>Japan</item>
+        <item>USA</item>
+        <item>Korea</item>
+        <item>Japan</item>
+    </string-array>
+
+    <string-array name="bank_sector">
+        <item>Bank of America</item>
+        <item>Morgan Stanley</item>
+<!--        <item>Credit Agricole</item>-->
+<!--        <item>Credit Agricole</item>-->
+<!--        <item>Mitsubishi UFJ Financial Group</item>-->
+<!--        <item>BNP Paribas</item>-->
+<!--        <item>JP Morgan Chase</item>-->
+<!--        <item>HSBC Holdings pls</item>-->
+<!--        <item>Bank of China Itd</item>-->
+<!--        <item>Agricultural Bank of China</item>-->
+<!--        <item>China Construction Bank Corporation</item>-->
+<!--        <item>Industrial and Commercial Bank of China</item>-->
+<!--        <item>Citigroup</item>-->
+<!--        <item>Japan Post Bank</item>-->
+<!--        <item>Sumitomo Mitsui Financial Group</item>-->
+<!--        <item>Mizuho Financial Group</item>-->
+<!--        <item><![CDATA[Wells Fargo & Co.]]></item>-->
+<!--        <item>Banko Santander</item>-->
+<!--        <item>Societe Generale</item>-->
+<!--        <item>Deutsche Bank</item>-->
+<!--        <item>Groupe BPCE</item>-->
+<!--        <item>Тинькофф Банк</item>-->
+    </string-array>
+
+    <array name="imageBankCompany">
+        <item>@drawable/bankofamerica</item>
+        <item>@drawable/morgan</item>
+    </array>
+
+    <array name="imageBankFound">
+        <item>@drawable/found_google</item>
+        <item>@drawable/found_of_america</item>
+    </array>
+
+    <string-array name="bank_country">
+        <item>USA</item>
+        <item>USA</item>
+<!--        <item>France</item>-->
+<!--        <item>Japan</item>-->
+<!--        <item>France</item>-->
+<!--        <item>USA</item>-->
+<!--        <item>England</item>-->
+<!--        <item>China</item>-->
+<!--        <item>China</item>-->
+<!--        <item>China</item>-->
+<!--        <item>China</item>-->
+<!--        <item>USA</item>-->
+<!--        <item>Japan</item>-->
+<!--        <item>Japan</item>-->
+<!--        <item>Japan</item>-->
+<!--        <item>USA</item>-->
+<!--        <item>Spain</item>-->
+<!--        <item>France</item>-->
+<!--        <item>Germany</item>-->
+<!--        <item>France</item>-->
+<!--        <item>Russia</item>-->
+    </string-array>
+
+    <string-array name="oil_gas_sector">
+        <item>Газпром</item>
+        <item>Saudi Aramco</item>
+        <item>Роснефть</item>
+<!--        <item>ExxonMobil</item>-->
+<!--        <item>Chevron</item>-->
+<!--        <item>Royal Dutch Shell</item>-->
+<!--        <item>Reliance Industries</item>-->
+<!--        <item>Enbridge</item>-->
+<!--        <item>Total</item>-->
+<!--        <item>BP</item>-->
+<!--        <item>Sinopec</item>-->
+<!--        <item>Suncor Energy</item>-->
+<!--        <item>Conoco Phillips</item>-->
+<!--        <item>Новатэк</item>-->
+<!--        <item>ЛУКОЙЛ</item>-->
+    </string-array>
+
+    <array name="imageOilGasCompany">
+        <item>@drawable/gazprom</item>
+        <item>@drawable/aramco</item>
+        <item>@drawable/rosneft</item>
+    </array>
+
+    <array name="imageOilGasFound">
+        <item>@drawable/found_google</item>
+        <item>@drawable/found_apple</item>
+        <item>@drawable/found_yandex</item>
+    </array>
+
+    <string-array name="oil_gas_country">
+        <item>Russia</item>
+        <item>Saudi Arabia</item>
+        <item>Russia</item>
+<!--        <item>USA</item>-->
+<!--        <item>USA</item>-->
+<!--        <item>Netherlands</item>-->
+<!--        <item>India</item>-->
+<!--        <item>Canada</item>-->
+<!--        <item>France</item>-->
+<!--        <item>Great Britain</item>-->
+<!--        <item>China</item>-->
+<!--        <item>Canada</item>-->
+<!--        <item>USA</item>-->
+<!--        <item>Russia</item>-->
+<!--        <item>Russia</item>-->
+    </string-array>
+
+</resources>
