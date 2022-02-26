@@ -1,163 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="all_company">
+        <item>Google|USA|techno_sector/google.png</item>
+        <item>Apple|USA|techno_sector/apple.png</item>
+        <item>Yandex|Russia|techno_sector/yandex.png</item>
+        <item>Microsoft|USA|techno_sector/microsoft.png</item>
+        <item>Amazon|USA|techno_sector/amazon.png</item>
+        <item>Meta|USA|techno_sector/meta.png</item>
+        <item>Netflix|USA|techno_sector/netflix.png</item>
+        <item>YouTube|USA|techno_sector/youtube.png</item>
+        <item>JetBrains|Russia|techno_sector/brains.png</item>
+    </string-array>
+
     <string-array name="techno_sector">
-        <item>Google</item>
-        <item>Apple</item>
-        <item>Yandex</item>
-        <item>Microsoft</item>
-        <item>Amazon</item>
-        <item>Meta</item>
-        <item>Netflix</item>
-        <item>YouTube</item>
-        <item>JetBrains</item>
+        <item>Google|USA|techno_sector/google.png|techno_founders/found_google.webp</item>
+        <item>Apple|USA|techno_sector/apple.png|techno_founders/found_apple.jpg</item>
+        <item>Yandex|Russia|techno_sector/yandex.png|techno_founders/found_yandex.jpg</item>
+        <item>Microsoft|USA|techno_sector/microsoft.png|techno_founders/found_microsoft.jpg</item>
+        <item>Amazon|USA|techno_sector/amazon.png|techno_founders/found_amazon.jpg</item>
+        <item>Meta|USA|techno_sector/meta.png|techno_founders/found_meta.jpeg</item>
+        <item>Netflix|USA|techno_sector/netflix.png|techno_founders/found_netflix.jpg</item>
+        <item>YouTube|USA|techno_sector/youtube.png|techno_founders/found_youtube.jpg</item>
+        <item>JetBrains|Russia|techno_sector/brains.png|techno_founders/found_brains.jpg</item>
     </string-array>
-
-    <string-array name="techno_country">
-        <item>USA</item>
-        <item>USA</item>
-        <item>Russia</item>
-        <item>USA</item>
-        <item>USA</item>
-        <item>USA</item>
-        <item>USA</item>
-        <item>USA</item>
-        <item>USA</item>
-        <item>Russia</item>
-    </string-array>
-
-    <array name="imageTechCompany">
-        <item>@drawable/google</item>
-        <item>@drawable/apple</item>
-        <item>@drawable/yandex</item>
-        <item>@drawable/microsoft</item>
-        <item>@drawable/amazon</item>
-        <item>@drawable/meta</item>
-        <item>@drawable/netflix</item>
-        <item>@drawable/youtube</item>
-        <item>@drawable/brains</item>
-    </array>
-
-    <array name="imageTechFound">
-        <item>@drawable/found_google</item>
-        <item>@drawable/found_apple</item>
-        <item>@drawable/found_yandex</item>
-        <item>@drawable/found_microsoft</item>
-        <item>@drawable/found_amazon</item>
-        <item>@drawable/found_meta</item>
-        <item>@drawable/found_netflix</item>
-        <item>@drawable/found_youtube</item>
-        <item>@drawable/found_brains</item>
-    </array>
 
     <string-array name="car_sector">
-        <item>Tesla</item>
-        <item>Ford</item>
-        <item>Mercedes</item>
-        <item>BMW</item>
-        <item>Toyota</item>
-        <item>Volkswagen</item>
-        <item>Honda Motors</item>
-        <item>General Motors</item>
-        <item>Hyundai Motors</item>
-        <item>Nissan Motors</item>
-    </string-array>
-
-    <array name="imageCarCompany">
-        <item>@drawable/tesla</item>
-        <item>@drawable/ford</item>
-        <item>@drawable/mercedes</item>
-        <item>@drawable/bmw</item>
-        <item>@drawable/toyota</item>
-        <item>@drawable/wagen</item>
-        <item>@drawable/honda</item>
-        <item>@drawable/gm</item>
-        <item>@drawable/hyundai</item>
-        <item>@drawable/nissan</item>
-    </array>
-
-    <array name="imageCarFound">
-        <item>@drawable/found_tesla</item>
-        <item>@drawable/found_ford</item>
-        <item>@drawable/found_merc</item>
-        <item>@drawable/found_bmw</item>
-        <item>@drawable/found_toyota</item>
-        <item>@drawable/found_wagen</item>
-        <item>@drawable/found_honda</item>
-        <item>@drawable/found_gm</item>
-        <item>@drawable/found_hyundai</item>
-        <item>@drawable/found_nissan</item>
-    </array>
-
-    <string-array name="car_country">
-        <item>USA</item>
-        <item>USA</item>
-        <item>Germany</item>
-        <item>Germany</item>
-        <item>Japan</item>
-        <item>Germany</item>
-        <item>Japan</item>
-        <item>USA</item>
-        <item>Korea</item>
-        <item>Japan</item>
+        <item>Tesla|USA|car_sector/tesla.png|car_founders/found_tesla.jpg</item>
+        <item>Ford|USA|car_sector/ford.png|car_founders/found_ford.jpg</item>
+        <item>Mercedes|Germany|car_sector/mercedes.png|car_founders/found_merc.jpg</item>
+        <item>BMW|Germany|car_sector/bmw.png|car_founders/found_bmw.jpg</item>
+        <item>Toyota|Japan|car_sector/toyota.png|car_founders/found_toyota.jpg</item>
+        <item>Volkswagen|Germany|car_sector/wagen.png|car_founders/found_wagen.jpg</item>
+        <item>Honda Motors|Japan|car_sector/honda.png|car_founders/found_honda.jpg</item>
+        <item>General Motors|USA|car_sector/gm.png|car_founders/found_gm.jpg</item>
+        <item>Hyundai Motors|Korea|car_sector/hyundai.png|car_founders/found_hyundai.jpg</item>
+        <item>Nissan Motors|Japan|car_sector/nissan.png|car_founders/found_nissan.jpg</item>
     </string-array>
 
     <string-array name="bank_sector">
-        <item>Bank of America</item>
-        <item>Morgan Stanley</item>
-<!--        <item>Credit Agricole</item>-->
-<!--        <item>Credit Agricole</item>-->
-<!--        <item>Mitsubishi UFJ Financial Group</item>-->
-<!--        <item>BNP Paribas</item>-->
-<!--        <item>JP Morgan Chase</item>-->
-<!--        <item>HSBC Holdings pls</item>-->
-<!--        <item>Bank of China Itd</item>-->
-<!--        <item>Agricultural Bank of China</item>-->
-<!--        <item>China Construction Bank Corporation</item>-->
-<!--        <item>Industrial and Commercial Bank of China</item>-->
-<!--        <item>Citigroup</item>-->
-<!--        <item>Japan Post Bank</item>-->
-<!--        <item>Sumitomo Mitsui Financial Group</item>-->
-<!--        <item>Mizuho Financial Group</item>-->
-<!--        <item><![CDATA[Wells Fargo & Co.]]></item>-->
-<!--        <item>Banko Santander</item>-->
-<!--        <item>Societe Generale</item>-->
-<!--        <item>Deutsche Bank</item>-->
-<!--        <item>Groupe BPCE</item>-->
-<!--        <item>Тинькофф Банк</item>-->
-    </string-array>
-
-    <array name="imageBankCompany">
-        <item>@drawable/bankofamerica</item>
-        <item>@drawable/morgan</item>
-    </array>
-
-    <array name="imageBankFound">
-        <item>@drawable/found_google</item>
-        <item>@drawable/found_of_america</item>
-    </array>
-
-    <string-array name="bank_country">
-        <item>USA</item>
-        <item>USA</item>
-<!--        <item>France</item>-->
-<!--        <item>Japan</item>-->
-<!--        <item>France</item>-->
-<!--        <item>USA</item>-->
-<!--        <item>England</item>-->
-<!--        <item>China</item>-->
-<!--        <item>China</item>-->
-<!--        <item>China</item>-->
-<!--        <item>China</item>-->
-<!--        <item>USA</item>-->
-<!--        <item>Japan</item>-->
-<!--        <item>Japan</item>-->
-<!--        <item>Japan</item>-->
-<!--        <item>USA</item>-->
-<!--        <item>Spain</item>-->
-<!--        <item>France</item>-->
-<!--        <item>Germany</item>-->
-<!--        <item>France</item>-->
-<!--        <item>Russia</item>-->
+        <item>Bank of America|USA|bank_sector/bank_of_america.png|bank_founders/found_of_america.jpg</item>
+        <item>Morgan Stanley|USA|bank_sector/morgan.png|bank_founders/morgan_found.png</item>
+        <item>Agricultural Bank of China|China|bank_sector/agricultural.jpg|bank_founders/agricultural_founder.jpg</item>
+        <item>JP Morgan Chase|USA|bank_sector/chase.jpg|bank_founders/chase_founder.jpg</item>
+        <item>Wells Fargo|USA|bank_sector/wells.jpg|bank_founders/wells_founder.jpg</item>
+        <item>Tinkoff Bank|Russia|bank_sector/tinkoff.jpg|bank_founders/tinkoff_founder.jpg</item>
     </string-array>
 
     <string-array name="oil_gas_sector">
@@ -177,18 +63,6 @@
 <!--        <item>Новатэк</item>-->
 <!--        <item>ЛУКОЙЛ</item>-->
     </string-array>
-
-    <array name="imageOilGasCompany">
-        <item>@drawable/gazprom</item>
-        <item>@drawable/aramco</item>
-        <item>@drawable/rosneft</item>
-    </array>
-
-    <array name="imageOilGasFound">
-        <item>@drawable/found_google</item>
-        <item>@drawable/found_apple</item>
-        <item>@drawable/found_yandex</item>
-    </array>
 
     <string-array name="oil_gas_country">
         <item>Russia</item>

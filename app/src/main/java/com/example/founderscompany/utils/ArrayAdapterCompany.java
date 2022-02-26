@@ -45,8 +45,10 @@ public class ArrayAdapterCompany extends ArrayAdapter<ListItem> {
 
         viewHolder.name.setText(listItem.nameCompany);
         viewHolder.country.setText(listItem.country);
-        viewHolder.imageView.setImageResource(listItem.getImageId());
-
+        viewHolder.imageView.setImageBitmap(
+                ImageManager.INSTANCE.getBitmapFromAssets(
+                        context.getAssets(),listItem.getImagePath()
+                ));
         return convertView;
     }
 

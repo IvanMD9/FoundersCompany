@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.InfoActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/greeting"
+        android:gravity="center|center_horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/info"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/iv_apple"
+        android:layout_width="106dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:rotationX="33"
+        android:rotationY="18"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/apple" />
+
+    <ImageView
+        android:id="@+id/iv_google"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="44dp"
+        android:rotation="53"
+        android:rotationX="41"
+        android:rotationY="-14"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/google" />
+
+    <ImageView
+        android:id="@+id/iv_brains"
+        android:layout_width="77dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="184dp"
+        android:background="@null"
+        android:rotation="18"
+        android:rotationY="33"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/brains" />
+
+    <ImageView
+        android:id="@+id/iv_merc"
+        android:layout_width="76dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="88dp"
+        android:rotation="10"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/mercedes" />
+
+    <ImageView
+        android:id="@+id/iv_aramco"
+        android:layout_width="92dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="180dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:srcCompat="@drawable/aramco" />
+
+    <ImageView
+        android:id="@+id/iv_ford"
+        android:layout_width="91dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/ford" />
+</androidx.constraintlayout.widget.ConstraintLayout>

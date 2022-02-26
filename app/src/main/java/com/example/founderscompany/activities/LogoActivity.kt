@@ -1,9 +1,10 @@
-package com.example.founderscompany
+package com.example.founderscompany.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.founderscompany.R
 
 class LogoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
